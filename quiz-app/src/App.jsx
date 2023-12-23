@@ -17,7 +17,6 @@ function App() {
     let a = amount
     setAmount(a + 1)
   }
-
   function nextQuestion() {
     if (currentQuestionIndex + 1 < questionsData.length) {
       setCurrentQuestionIndex(currentQuestionIndex + 1)
